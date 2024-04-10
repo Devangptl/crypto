@@ -15,7 +15,7 @@ export default function Dashboard() {
   const getallTransaction = async () => {
     await axios({
       method: "POST",
-      url: "https://cryptofolio-backstack-aiwo.onrender.com/wallet/getwalletTransaction",
+      url: "https://crypto-hz41.onrender.com/wallet/getwalletTransaction",
       data: {
         login: login,
       },

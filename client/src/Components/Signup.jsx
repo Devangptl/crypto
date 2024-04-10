@@ -14,14 +14,15 @@ export default function Signup({ closemod }) {
       email: credentials.email,
       password: credentials.password,
     };
-    const response = await fetch("https://cryptofolio-backstack-aiwo.onrender.com/register/Signup", {
+    const response = await fetch("https://crypto-hz41.onrender.com/register/Signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(body),
     });
-    //  const json=response.json();
+     const json=response.json();
+     console.log(json);
     const data = await response.text();
     //  console.log(data);
     if (data == "No such user found") {
