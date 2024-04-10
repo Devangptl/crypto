@@ -46,7 +46,7 @@ export default function Nav({ open }) {
                       open[0](true);
                     }}
                   >
-                    SignIn
+                    SignUp
                   </button>
                 </li>
                 <li className="mx-2 text-[15px] sm:text-[18px] md:text-xl">
@@ -55,7 +55,7 @@ export default function Nav({ open }) {
                       open[1](true);
                     }}
                   >
-                    SignUp
+                    SignIn
                   </button>
                 </li>
               </div>
