@@ -19,7 +19,7 @@ app.use(
 //---------------mongoose connection----------------//
 
 const Connection_url =
-  "mongodb+srv://jynt_1401:858923788@cluster0.ai09p2x.mongodb.net/crypto?retryWrites=true&w=majority";
+  "mongodb+srv://devang:devang@cluster0.ort1sen.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const PORT = 3001;
 
 mongoose
