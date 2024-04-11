@@ -21,7 +21,7 @@ export default function Home() {
           </div>
           <div className="flex justify-around md:justify-start">
             <div className="font-bold text-[25px] sm:text-[35px] md:text-[45px] lg:text-[55px] xl:text-[65px] grad_text decoration-transparent">
-              Grow With CryptoFolio
+              Grow With Cryptids
             </div>
           </div>
           {/* <div className="flex justify-center">

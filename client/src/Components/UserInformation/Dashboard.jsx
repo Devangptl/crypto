@@ -15,7 +15,7 @@ export default function Dashboard() {
   const getallTransaction = async () => {
     await axios({
       method: "POST",
-      url: "https://crypto-hz41.onrender.com/wallet/getwalletTransaction",
+      url: "https://cryptofolio-backstack-aiwo.onrender.com/wallet/getwalletTransaction",
       data: {
         login: login,
       },
@@ -58,7 +58,7 @@ export default function Dashboard() {
   const getamount = async () => {
     await axios({
       method: "POST",
-      url: "https://crypto-hz41.onrender.com/wallet/getwalletAmount",
+      url: "https://cryptofolio-backstack-aiwo.onrender.com/wallet/getwalletAmount",
       data: {
         login: login,
       },
@@ -95,7 +95,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchuserdata = async () => {
       const response = await fetch(
-        "https://crypto-hz41.onrender.com/dashboard/userdetails",
+        "https://cryptofolio-backstack-aiwo.onrender.com/dashboard/userdetails",
         {
           method: "POST",
           body: JSON.stringify({ UserId: userid }),

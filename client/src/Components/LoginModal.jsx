@@ -75,7 +75,7 @@ export default function LoginModal({ closemod }) {
               {/* <div className=" animate-pulse rounded-full bg-[#b3b3b3] blur-lg absolute hidden mt-[20px] ml-[10px] sm:inline-flex w-[300px] h-[200px] z-10"></div> */}
               <div className="">
                 <h1 className=" text-center p-1 font-bold text-[18px] sm:text-[25px] z-50 ">
-                  Welcome to our Cryptofolio!
+                  Welcome to our Cryptids!
                 </h1>
 
                 <form className=" grid grid-cols-1 md:grid-cols-2 p-3">
@@ -181,7 +181,7 @@ export default function LoginModal({ closemod }) {
                   </button>
                 </div>
                 <div className="text-center mx-auto font-semibold m-3 bg-[#131722] rounded-md text-white w-[100px] p-1 hover:bg-[#414141]">
-                  <button onClick={eventHandler}>login</button>
+                  <button onClick={eventHandler}>SignUp</button>
                 </div>
               </div>
             </div>

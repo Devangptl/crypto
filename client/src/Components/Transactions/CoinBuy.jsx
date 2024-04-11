@@ -19,7 +19,7 @@ export default function CoinBuy() {
   const [id, setid] = useState();
   const getid = async () => {
     const response = await fetch(
-      "https://crypto-hz41.onrender.com/dashboard/dashboard",
+      "https://cryptofolio-backstack-aiwo.onrender.com/dashboard/dashboard",
       {
         method: "POST",
         body: JSON.stringify({ Token: localStorage.authToken }),
@@ -69,7 +69,7 @@ export default function CoinBuy() {
   const getallTransaction = async () => {
     await axios({
       method: "POST",
-      url: "https://crypto-hz41.onrender.com/wallet/getwalletTransaction",
+      url: "https://cryptofolio-backstack-aiwo.onrender.com/wallet/getwalletTransaction",
       data: {
         login: login,
       },
@@ -90,7 +90,7 @@ export default function CoinBuy() {
   const getamount = async () => {
     await axios({
       method: "POST",
-      url: "https://crypto-hz41.onrender.com/wallet/getwalletAmount",
+      url: "https://cryptofolio-backstack-aiwo.onrender.com/wallet/getwalletAmount",
       data: {
         login: login,
       },
@@ -132,7 +132,7 @@ export default function CoinBuy() {
 
       const response = await axios({
         method: "POST",
-        url: "https://crypto-hz41.onrender.com/transactions/transactions",
+        url: "https://cryptofolio-backstack-aiwo.onrender.com/transactions/transactions",
         data: {
           Quantity: Quantity,
           Amount: (`${state.data.current_price}` / 100) * 70 * Quantity,
@@ -182,7 +182,7 @@ export default function CoinBuy() {
 
     const response = await axios({
       method: "POST",
-      url: "https://crypto-hz41.onrender.com/transactions/transactions",
+      url: "https://cryptofolio-backstack-aiwo.onrender.com/transactions/transactions",
       data: {
         Quantity:
           Amount_for_amount / ((`${state.data.current_price}` / 100) * 70),

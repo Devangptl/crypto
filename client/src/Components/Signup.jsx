@@ -57,7 +57,7 @@ export default function Signup({ closemod }) {
           </button>
 
           <h1 className=" text-center p-1 font-bold text-[18px] sm:text-[25px] z-50 ">
-            Welcome to our Cryptofolio!
+            Welcome to our Cryptids
           </h1>
 
           <div></div>
@@ -101,7 +101,7 @@ export default function Signup({ closemod }) {
             </button>
           </div>
           <div className="text-center mx-auto font-semibold m-3 bg-[#131722] rounded-md text-white w-[100px] p-1 hover:bg-[#414141]">
-            <button onClick={eventHandler}>signup</button>
+            <button onClick={eventHandler}>LogIn</button>
           </div>
         </div>
       </div>
